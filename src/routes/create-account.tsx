@@ -52,7 +52,7 @@ export default function Createaccount() {
   };
   return (
     <Wrapper>
-      <Title>Join X</Title>
+      <Title>Join Us!</Title>
       <Form onSubmit={onSubmit}>
         <Input
           onChange={onChange}

@@ -50,7 +50,7 @@ export default function Createaccount() {
   
   return (
     <Wrapper>
-      <Title>Log into X</Title>
+      <Title>Log into Nwitter!</Title>
       <Form onSubmit={onSubmit}>
         <Input
           onChange={onChange}

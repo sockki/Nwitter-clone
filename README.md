@@ -1,27 +1,20 @@
-# React + TypeScript + Vite
+# 트위터 클론 앱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Firebase를 사용한 트위터 클론 앱 입니다.                 
+사용자는 회원 가입 및 로그인을 하여 자신의 트위터를 남길 수 있습니다.
 
-Currently, two official plugins are available:
+# 기능
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. 회원가입 및 로그인
+먼저 간단한 회원 가입 및 로그인 이후 커뮤니티를 이용할 수 있습니다.
 
-## Expanding the ESLint configuration
+### 2. 트윗 올리기
+메인화면 상단의 입력란을 통해 트윗을 올릴 수 있습니다.                 
+또한 자신이 올린 트윗을 제거하거나 수정 할 수 있습니다.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# 설치 방법
+프로젝트 클론후 npm install로 npm 설치            
+npm start로 로컬 실행
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# 시연 영상
+<img src='/images/시연영상.gif' width="800px" height="417px" title="시연영상"></img><br/>
